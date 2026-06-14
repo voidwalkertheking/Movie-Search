@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang='en'>
+<head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+    
+    <!-- Styles & Meta -->
+    <link href='style.css' rel='stylesheet'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    <title>Find your movie!</title>
+</head>
+<body>
+    <div class='header pad'>
+        <h1>Find your movie!</h1>
+        <p>Ever wondered what movies would appear if you searched them up?</p>
+    </div>
+    
+    <div class='content-box'>
+        <h2>Search for your movie here!</h2>
+        <input type='text' id='movie' placeholder='ex: dune'>
+        <br><br>
+        <button onclick='search()'>Search!</button>
+        
+        <div id='results'></div>
+    </div>
+
+    <script src='movie.js'></script>
+</body>
+</html>
